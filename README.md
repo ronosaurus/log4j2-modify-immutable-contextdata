@@ -3,7 +3,7 @@ may be logged with a _correlationId_ MDC/ContextData value that needs enhanced t
 
 ```
 <Console name="Console" target="SYSTEM_OUT">
-    <!-- makes slight modification to exist MDC element -->
+    <!-- makes slight modification to existing MDC element -->
     <ContextDataPutCID />
     <!-- %X outputs all MDC elements -->.
     <PatternLayout pattern="%d [%t] %-5level %c{2} '%X' - %msg%n"/>
